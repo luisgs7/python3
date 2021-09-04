@@ -2,3 +2,4 @@ venv
 fundamentos_projetos/__pycache__
 .idea
 manipulacao_arquivos/desafio-ibge.csv
+**/__pycache__
