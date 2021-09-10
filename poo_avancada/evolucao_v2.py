@@ -37,7 +37,3 @@ if __name__ == '__main__':
     print(f'Evolução (a partir da instancia): {", ".join(jose.especies())}')
     print(f'Homo Sapiens evoluído? {HomoSapiens.is_evoluido()}')
     print(f'Neanderthal evoluído? {Neanderthal.is_evoluido()}')
-
-if __name__ == '__main__':
-    jose = Humano('José')
-    grokn = Humano('Grokn').das_carvernas()
