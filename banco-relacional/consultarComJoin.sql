@@ -1,3 +1,5 @@
+use python_course;
+
 SELECT 
 	e.nome AS Estado,
     c.nome AS Cidade,
