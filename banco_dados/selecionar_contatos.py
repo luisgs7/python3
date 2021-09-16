@@ -9,7 +9,7 @@ with nova_conexao() as conexao:
         cursor.execute(sql, (10, 10))
         contatos = cursor.fetchall()
 
-    except:
+    except ProgrammingError as e:
         print(f'Erro: {e.msg}')
 
     else:
