@@ -1,4 +1,3 @@
-from os import curdir
 from db import nova_conexao
 from mysql.connector.errors import ProgrammingError
 
